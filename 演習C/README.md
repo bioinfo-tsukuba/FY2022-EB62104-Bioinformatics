@@ -21,10 +21,6 @@
     - [発展課題C-1の準備](#発展課題c-1の準備)
     - [発展課題C-1の提出様式の指定](#発展課題c-1の提出様式の指定)
   - [発展課題B-2](#発展課題b-2)
-- [演習B 追記](#演習b-追記)
-  - [実行済みファイルについて](#実行済みファイルについて)
-  - [課題について](#課題について)
-  - [R で途中の結果までを保存する `saveRDS()` について](#r-で途中の結果までを保存する-saverds-について)
 
 ## １細胞RNA-seqについて
 
@@ -168,7 +164,7 @@ wget https://www.dropbox.com/s/wcsk4xc1ywtb64c/C-1.ipynb
 - Table S1 (Excelファイル) を参考に好きな組織の１細胞RNA-seqデータをダウンロードし、 [planarian_single_cell.ipynb](planarian_single_cell.ipynb) を参考に、データ前処理・解析を行い、ACE2遺伝子の発現量が高い細胞があるかを調べよ
 - Jupyter Hub上のメニューから `File > Download as > Notebook (.ipynb)` とすることで、実行結果をJupyter notebook形式でダウンロードできるので、それを manaba で提出せよ
 
-# 演習B 追記
+<!-- # 演習B 追記
 
 ## 実行済みファイルについて
 
@@ -192,4 +188,4 @@ saveRDS(planarian, file = "planarian_B09.rds")
 
 # 途中の結果を読み込んでそこからやり直す
 planarian <- readRDS("planarian_B09.rds")
-```
+``` -->
