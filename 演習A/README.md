@@ -57,7 +57,7 @@
 ## A03: [Jupyter基本動作] ノートブックの名前を変更する
 
 "Untitled" となっている部分をクリックすると、このノートブックのファイル名を変更できます。
-ファイル名を "Training-A" と変更しましょう。
+ファイル名を "Pre-training" と変更しましょう。
 
 - ![](img/2021-02-06-20-06-33.png)
 
@@ -104,4 +104,29 @@ $ ls
 ```
 
 - ![](img/2021-02-06-20-30-50.png)
+
+----
+----
+----
+----
+----
+
+## 基本課題A-1
+
+[茨城県の新型コロナウイルス陽性者数の累計数](https://corona.go.jp/dashboard/)についての統計データ（CSV；コンマ区切りファイル）をダウンロードし、読み込んでグラフを作成する。
+
+1. 新しくターミナルを開き、以下のコマンドを実行せよ
+   1. `wget https://www.dropbox.com/s/15f5qfk967l2ev6/covid19-cumsum-Ibaraki.csv`
+2. 新しいRノートブックを作成し `Basic-A-1` という名前をつけよ
+3. １つ目のセルに以下のコードをコピペして実行せよ
+   1. `library(tidyverse)`
+4. ２つ目のセルに以下のコードをコピペして実行せよ
+   1. `df1 <- read_csv("covid19-cumsum-Ibaraki.csv", col_names=TRUE)`
+4. 3つ目のセルに以下のコードをコピペして実行せよ
+   1. `head(df1)`
+4. 4つ目のセルに以下のコードをコピペして実行せよ
+   1. `ggplot(df1, aes(date, npatients)) + geom_line()`
+5. 5つ目のセルに以下のコードをコピペして実行せよ
+   1. `df1 %>% filter(date > "2021-01-01" & date < "2021-01-15")`
+6. Jupyter Hub上のメニューから `File > Download as > Notebook (.ipynb)` とすることで、実行結果をJupyter notebook形式でダウンロードできるので、それを manaba で提出せよ
 
