@@ -2,6 +2,10 @@
 
 [トップページに戻る](../)
 
+## スライド
+
+[演習A スライド](https://github.com/bioinfo-tsukuba/FY2022-EB62104-Bioinformatics/raw/main/%E6%BC%94%E7%BF%92A/%E6%BC%94%E7%BF%92A.pdf)
+
 ## 目次
 
 ## 実習用環境（Jupyter notebook）について

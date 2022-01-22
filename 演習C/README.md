@@ -18,7 +18,7 @@
   - [基本課題C-1](#基本課題c-1)
   - [発展課題C-1](#発展課題c-1)
     - [発展課題C-1の内容](#発展課題c-1の内容)
-    - [発展課題C-1の準備](#発展課題c-1の準備)
+    - [発展課題C-1の進め方](#発展課題c-1の進め方)
     - [発展課題C-1の提出様式の指定](#発展課題c-1の提出様式の指定)
   - [発展課題B-2](#発展課題b-2)
 
@@ -117,6 +117,12 @@ Jupyter Hub のターミナルで、以下を実行する：
 wget https://www.dropbox.com/s/7v3szc3nku52ajj/planarian_single_cell.ipynb
 ```
 
+----
+----
+----
+----
+----
+
 ## 基本課題C-1
 
 - `planarian_single_cell.ipynb` を Jupyter Hub 上で開き、上から１つずつセルを実行せよ。
@@ -130,7 +136,7 @@ wget https://www.dropbox.com/s/7v3szc3nku52ajj/planarian_single_cell.ipynb
 - 各クラスターに特異的な遺伝子群がどのような機能を持つ遺伝子かを調べ、レポートとしてまとめよ
   - 少なくとも３つのクラスターについて調べよ
 
-### 発展課題C-1の準備
+### 発展課題C-1の進め方
 
 Jupyter Hub のターミナルで、以下を実行する：
 
@@ -139,8 +145,10 @@ wget https://www.dropbox.com/s/wti9npcy409rmrv/human_ortholog_subset.tsv
 
 mv human_ortholog_subset.tsv data/
 
-wget https://www.dropbox.com/s/wcsk4xc1ywtb64c/C-1.ipynb
+wget https://www.dropbox.com/s/sw7x30vjb8i1doy/Advanced-C-1.ipynb
 ```
+
+次に、 `Advanced-C-1.ipynb` を Jupyter Hub 上で開き、すでにあるコードを参考にしつつ、書いていく。
 
 ### 発展課題C-1の提出様式の指定
 
