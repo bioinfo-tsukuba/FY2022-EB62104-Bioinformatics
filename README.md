@@ -17,4 +17,4 @@
 - 11:45-12:00  ラップアップ（リアルタイム）
 - 13:30-16:30  実習B（資料＋リアルタイムオンライン）
   - [演習C 手順書](演習C)
-  - [演習C スライド](演習C/演習C.pdf)
+  - [演習C スライド](https://github.com/bioinfo-tsukuba/FY2022-EB62104-Bioinformatics/raw/main/%E6%BC%94%E7%BF%92C/%E6%BC%94%E7%BF%92C.pdf)

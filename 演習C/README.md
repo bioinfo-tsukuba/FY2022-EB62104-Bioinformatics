@@ -24,7 +24,7 @@
 
 ## １細胞RNA-seqについて
 
-[演習C スライド](演習C.pdf)
+[演習C スライド](https://github.com/bioinfo-tsukuba/FY2022-EB62104-Bioinformatics/raw/main/%E6%BC%94%E7%BF%92C/%E6%BC%94%E7%BF%92C.pdf)
 
 ## 演習Cでは、何をやるの？
 
