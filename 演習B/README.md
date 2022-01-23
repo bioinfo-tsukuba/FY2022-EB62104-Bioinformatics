@@ -661,7 +661,7 @@ filter(`log2(fold_change)` > log2(1.5), q_value < 0.1)
 
 - 以下のようなRのコードを作成しなさい
   - `tidyverse` を使う
-  - `HOM_MouseHumanSequence.rpt` を読み込んで、 `df_hom` というRオブジェクトに格納する
+  - `data/HOM_MouseHumanSequence.rpt` を読み込んで、 `df_hom` というRオブジェクトに格納する
   - 行数と列数を調べる
 - 上のメニューから `File > Download as > R (.r)` とすることで、Rのコードをダウンロードできるので、それを manaba で提出せよ
 
