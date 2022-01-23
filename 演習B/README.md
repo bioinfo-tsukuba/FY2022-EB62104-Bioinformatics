@@ -683,7 +683,7 @@ filter(`log2(fold_change)` > log2(1.5), q_value < 0.1)
 - `LR_manual_revised.txt` を読み込み、 `From`列と`To`列にそれぞれユニークな要素がいくつあるかを調べるRのコードを作成し、実行せよ
   - ヒント：unique() を使うと、重複のある行を除くことができる
 - 新しいノートブックを作成して作成すること
-- 上のメニューから `File > Download as > Notebook (.ipynb)` とすることで、Rのコードをダウンロードできるので、それを manaba で提出せよ
+- 上のメニューから `File > Download as > Notebook (.ipynb)` とすることで、実行結果をダウンロードできるので、それを manaba で提出せよ
 
 ### 基本課題B-5
 
